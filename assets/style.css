@@ -1,0 +1,30 @@
+h1 {
+	font-family: helvetica neue;
+	font-size: 80px;
+	margin: 45px
+}
+body {
+	font-family: helvetica neue;
+	font-size: 14px;
+}
+span {
+	margin-left: 55px;
+}
+a img:hover {
+	opacity: 0.3;
+	transition: 0.4s all ease;
+}
+.row {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 25px;
+}
+.column {
+	flex: 100%;
+	max-width: 100%;
+}
+.column img {
+	vertical-align: middle;
+	width: 100%;
+	padding: 30px;
+}
